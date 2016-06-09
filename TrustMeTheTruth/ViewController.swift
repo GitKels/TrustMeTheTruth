@@ -42,8 +42,11 @@ class ViewController: UIViewController {
     numberSelect = Int(arc4random_uniform(UInt32(answerArray.count)))
     }
     
-
+    func printAnswer () {
+        answerLabel.text = "\(answerArray[numberSelect])"
         
+    }
+    
     }
     
 
