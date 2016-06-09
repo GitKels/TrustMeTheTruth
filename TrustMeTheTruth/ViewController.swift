@@ -15,6 +15,10 @@ class ViewController: UIViewController {
     
     @IBOutlet var answerLabel: UILabel!
     
+    var answerArray = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    
+    var numberSelect = 0
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,9 +37,15 @@ class ViewController: UIViewController {
     @IBAction func askButton(sender: UIButton) {
     }
     
+    func randomNumberSelect(){
     
-    
+    numberSelect = Int(arc4random_uniform(UInt32(answerArray.count)))
+    }
     
 
-}
+        
+    }
+    
+
+
 
