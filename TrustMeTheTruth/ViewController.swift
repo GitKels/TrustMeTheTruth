@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     @IBOutlet var answerLabel: UILabel!
     
-    var answerArray = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    var answerArray = ["FUCK YEAH", "NOT SO SURE ABOUT THAT", "SURE, GO FOR IT", "ARE YOU FUCK'N KIDDING ME", "FUCK'EM ALL. I LOVE YOU", "YOUR DOING GREAT", "JUST BE YOURSELF", "GO FULL FUCK'N SAVAGE", "WHAT DO YOU CARE WHAT OTHER PEOPLE THINK", "YOU SHOULD GIVE 0 FUCKS", "KILL YOURSELF", "BUT ARE YOU DEAD?", "WOW, FIRST WORLD PROBLEMS", "YOU GOT THIS", "WHAT ARE YOU A MAMA'S BOY", "I'D COSIGN THAT SHIT", "DRINK SOME BLEACH, GET IT OVER WITH", "THAT'S HOW I ROLL"]
     
     var numberSelect = 0
     
