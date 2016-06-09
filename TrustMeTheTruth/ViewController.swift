@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet var questionTxtField: UITextField!
     
     
+    @IBOutlet var answerLabel: UILabel!
     
     
     override func viewDidLoad() {
