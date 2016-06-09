@@ -30,6 +30,8 @@ class ViewController: UIViewController {
     
     
     
+    @IBAction func askButton(sender: UIButton) {
+    }
     
     
     
